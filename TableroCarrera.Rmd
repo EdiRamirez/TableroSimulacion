@@ -1,13 +1,14 @@
 ---
-title: "Themed dashboard"
+title: "Carrera La Luz 2022"
+subtile: "Actividad 1 - Métodos y Simulación Estadística"
 output: 
   flexdashboard::flex_dashboard:
     theme:
-      bg: "#101010"
-      fg: "#FDF7F7" 
-      primary: "#ED79F9"
+      bg: "#FFFFFF"
+      fg: "#034A94" 
+      primary: "#034A94" 
       base_font:
-        google: Prompt
+        google: Sen
       code_font:
         google: JetBrains Mono
     orientation: columns
@@ -18,6 +19,8 @@ output:
 library(flexdashboard)
 # Install thematic and un-comment for themed static plots (i.e., ggplot2)
 # thematic::thematic_rmd()
+library(ggplot2)
+library(paqueteMET)
 ```
 
 Column {data-width=650 .tabset}
